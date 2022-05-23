@@ -19,6 +19,13 @@ Note: Due to copyright reasons, the remade version is slightly modified from the
 - The app must be a single page application.
 
 ## Original performance
-The original project is not successful due to lack of communication between groupmates. The project is instead submitted separately.
+The original project is imcomplete due to insufficient communication between groupmates. The project is instead submitted separately.
 
 ## Remade version
+The remade version will consist of the completed version of the original project built with Node.js/Express, a single-page application and a multiple-page version both built with Flask.
+
+## To do list
+[x] Upload original incomplete version (as comparison)
+[ ] Remake original version using Node.js/Express
+[ ] Create a SPA version using Flask
+[x] Create a multi-page version using Flask
