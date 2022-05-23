@@ -25,7 +25,7 @@ The original project is imcomplete due to insufficient communication between gro
 The remade version will consist of the completed version of the original project built with Node.js/Express, a single-page application and a multiple-page version both built with Flask.
 
 ## To do list
-[x] Upload original incomplete version (as comparison)
-[ ] Remake original version using Node.js/Express
-[ ] Create a SPA version using Flask
-[x] Create a multi-page version using Flask
+- [x] Upload original incomplete version (as comparison)
+- [ ] Remake original version using Node.js/Express
+- [ ] Create a SPA version using Flask
+- [x] Create a multi-page version using Flask
