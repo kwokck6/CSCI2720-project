@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}{{ event['EN_PGM_NAME'] }}{% endblock %}
+{% block content %}
+<div class="row">
+    <div class="col">
+        <h3><strong>{{ event['EN_PGM_NAME'] }}</strong></h3>
+    </div>
+    <div class="col justify-content-right">
+        {% if event['id'] not in user.event_id %}
+        <form method="post">
+            <button class="btn btn-primary">Add to Favourite</button>
+        </form>
+        {% else %}
+        <form method="post">
+            <button class="btn btn-danger">Remove from Favourite</button>
+        </form>
+        {% endif %}
+    </div>
+</div>
+<br>
+<h4><strong>Details</strong></h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Key</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for key in event %}
+        <tr>
+            <td>{{ key }}</td>
+            <td>{{ event[key] }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

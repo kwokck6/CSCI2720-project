@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="bg-light rounded p-3 mb-3">
+    <h3><strong>Events</strong></h3>
+    <br>
+    <table class='table table-bordered table-hover'>
+        <thead class="thead-light">
+        <tr>
+            <th scope='col'>Programme name</th>
+            <th scope='col'>Start Date</th>
+            <th scope='col'>Activity type</th>
+            <th scope='col'>Location</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for event in events %}
+        <tr>
+            <td><a class="text-decoration-none" href="{{ '/event=' + event['_id']|string }}">{{ event['EN_PGM_NAME'] }}</a></td>
+            <td>{{ event['PGM_START_DATE'].split(" ")[0] }}</td>
+            <td>{{ event['EN_ACT_TYPE_NAME'] }}</td>
+            <td>{{ event['EN_VENUE'] }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

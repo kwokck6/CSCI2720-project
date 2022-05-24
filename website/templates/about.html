@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}About this project{% endblock %}
+{% block content %}
+<article>
+        <h3 class="font-weight-bold align-content-center">About this project</h3>
+        <section id="author" class="table-info p-3 rounded-top">
+                <h4 class="font-weight-bold">Authors</h4>
+                <p>This app is produced by</p>
+                <ul class="list-group">
+                    <li class="list-group-item"> Kwok Chun Kiu: UI/UX design, RESTful API using Flask, Database using MongoDB </li>
+                </ul>
+        </section>
+        <section id="howto" class="p-3">
+            <h4 class="font-weight-bold">How-to</h4>
+            <p>Non-users should log in first.</p>
+            <p></p>
+        </section>
+        <section id="schema" class="p-3">
+            <h4 class="font-weight-bold">Design of Schema</h4>
+            <p> There are two collections: <code>user</code> and <code>event</code>. Their schemas are as follows: </p>
+            <pre>
+
+            </pre>
+        </section>
+    </article>
+{% endblock %}
