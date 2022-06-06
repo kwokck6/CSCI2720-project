@@ -21,10 +21,11 @@ Note: Due to copyright reasons, the requirements of the remade version is slight
 - The app must be a single page application.
 
 ## Original performance
-The original project is incomplete due to insufficient communication between groupmates. The project is instead submitted separately.
+The original project is incomplete due to insufficient communication between groupmates. The project is instead submitted in separate parts.
 
 ## Remade version
-The remade version will consist of the completed version of the original project built with Node.js/Express, a single-page application and a multiple-page version both built with Flask.
+The remade version now consists of multi-page version both built with Flask and MongoDB.
+A complete single page application will be uploaded later.
 
 ## To do list
 - [x] Upload original incomplete version (as comparison)
