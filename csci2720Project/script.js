@@ -1,4 +1,4 @@
-// NAME: Cheung Sam Ki; Tseung Tsz Kin; KWOK Chun Kiu
+// NAME: Cheung ******; Tseung ******; KWOK Chun Kiu
 // SID: sid, sid, 1155141911
 const data = [{"event_ics": "https://ogcef.one.gov.hk/event-psi/psi/171695_en.ics", "event_desc":"More than 600 invaluable items of Bruce Lee memorabilia will be showcased to create an exhibition that looks at Bruce Lee from a more comprehensive, in-depth and independent perspective.","event_id":171695,"event_summary":"Bruce Lee：Kung Fu‧Art‧Life","event_location":"Hong Kong Heritage Museum","event_date":"20 Jul 2013 - 20 Jul 2020","event_duration":"","event_org":"Presented by the Leisure and Cultural Services Department Jointly organised by Bruce Lee Foundation and Hong Kong Heritage Museum Sponsored by Fortune Star Media Limited","event_url":"http://www.lcsd.gov.hk/ce/Museum/Heritage/en_US/web/hm/exhibitions/data/exid209.html","event_status":"B"}]
 
